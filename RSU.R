@@ -2,8 +2,8 @@
 #libreria para utilizar excel
 library(readxl)
 library(stats)
-#file.choose() #esta funcion muestra la ruta del archivo
-ruta_excel <- "C:\\Users\\Colgatox\\Downloads\\datos RSU.xlsx"
+#file.choose() #esta funcion muestra la ruta del archivo DESCOMENTA ESTA FUNCION SI NO CONOCES TU RUTA
+ruta_excel <- "Aqui pon tu ruta de EXCELL"
 excel_sheets(ruta_excel)
 hoja <- read_excel(ruta_excel, sheet="RSU")
 #selección de variables por backward
